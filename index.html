@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
-    /> -->
+    />
   </head>
   <body>
+    <div class="grid-section">
     <header>
       <h1>Davey Devs</h1>
       <h2>🤙#100DaysOfCode - Round 1!🤙</h2>
@@ -22,9 +23,12 @@
         off their coding journey. Here's an assemblage of my notes and
         recommendations for any beginners 😊
       </p>
+    </div>
     </header>
-    <div class="section" id="topics">
+    <div class="grid-section">
+    <button class="section-button" id="topics">
       <h1>What I studied!</h1>
+      <div class="content">
       <ul class="topics">
         <li>
           <i class="fab fa-js-square"></i>
@@ -56,6 +60,9 @@
           JQuery
         </li>
         <li>
+          PHP
+        </li>
+        <li>
           SVG
         </li>
         <li>
@@ -63,190 +70,242 @@
         </li>
       </ul>
     </div>
-    <div class="section" id="resources">
+  </button>
+  <div class="grid-section">
+    <button class="section-button" id="resources">
       <h1>How I studied!</h1>
-      <ul class="resource-list">
-        <li>
-          <a href="http://freecodecamp.org/" target="_blank"
-            ><i class="fab fa-free-code-camp"></i>freeCodeCamp</a
-          >
-        </li>
-        <li>
-          <a href="https://javascript30.com/" target="_blank">Javascript30</a>
-        </li>
-        <li>
-          <a href="http://www.htmlandcssbook.com/" target="_blank"
-            >HTML&CSS - Jon Duckett</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/"
-            target="_blank"
-            >Become a WordPress Developer: Unlocking Power With Code - Brad
-            Schiff</a
-          >
-        </li>
-        <li>
-          <a href="https://sr-workshop101.glitch.me/" target="_blank"
-            >Screen reader workshop 101</a
-          >
-        </li>
-        <li><a href="https://edabit.com/challenges/javascript">edabit</a></li>
-        <li>
-          <a href="https://www.codewars.com/" target="_blank">Codewars</a>
-        </li>
-        <li>
-          <a href="https://grasshopper.app/" target="_blank"
-            >Grasshopper - Mobile App</a
-          >
-        </li>
-      </ul>
+      <div class="content">
+        <ul class="resource-list">
+          <li>
+            <a href="http://freecodecamp.org/" target="_blank"
+              ><i class="fab fa-free-code-camp"></i>freeCodeCamp</a
+            >
+            <p>
+              I cannot recommend this resource enough. From a well laid out
+              curriculum to an inspiring message and forum, this is a perfect
+              place to get started in web development
+            </p>
+          </li>
+          <li>
+            <a href="https://javascript30.com/" target="_blank">Javascript30</a>
+            <p>
+              30 projects involving all kinds of uses for Javascript and a
+              better understanding of the DOM. An excellent way to practice ES6
+              methods and syntax as well
+            </p>
+          </li>
+          <li>
+            <a href="http://www.htmlandcssbook.com/" target="_blank"
+              >HTML&CSS - Jon Duckett</a
+            >
+            <p>
+              A book! A great foundational look at basics and how to set up
+              simple sites with accessibility and web requirements in mind
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/"
+              target="_blank"
+              >Become a WordPress Developer: Unlocking Power With Code - Brad
+              Schiff</a
+            >
+            <p>
+              An online course for anyone looking into WordPress dev. A dive
+              into PHP as well
+            </p>
+          </li>
+          <li>
+            <a href="https://sr-workshop101.glitch.me/" target="_blank"
+              >Screen reader workshop 101</a
+            >
+          </li>
+          <li><a href="https://edabit.com/challenges/javascript">edabit</a></li>
+          <li>
+            <a href="https://www.codewars.com/" target="_blank">Codewars</a>
+            <p>
+              Both edabit and Codewars are a solid way to practice your problem
+              solving and algorithm skills
+            </p>
+          </li>
+          <li>
+            <a href="https://grasshopper.app/" target="_blank"
+              >Grasshopper - Mobile App</a
+            >
+            <p>
+              This app was an answer to practicing Javascript skills while on
+              the train to/from work. JS basics along with practice with SVGs.
+              Fun and meant for all ages, really easy to use for a mobile app as
+              well.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </button>
     </div>
-    <div class="section" id="tools">
+    <div class="grid-section">
+    <button class="section-button" id="tools">
       <h1>What I used to make stuff!</h1>
-      <ul>
-        <li>
-          <a href="https://code.visualstudio.com/" target="_blank"
-            >Visual Studio Code</a
-          >
-          <p>
-            A great IDE (Integrated development environment) with extensions
-            that helps facilitate almost every aspect of coding.
-          </p>
-          <p>
-            Extensions I love:
-          </p>
-          <p>Quokka.js, Prettier, ESLint, Live Sass Compiler</p>
-        </li>
-        <li>
-          <a href="https://codepen.io/" target="_blank">CodePen</a>
-          <p>
-            A great place to stage and show off small projects. I highly
-            recommend signing up for their
-            <a href="https://codepen.io/spark/" target="_blank">newsletter</a>
-            for tons of inspiration
-          </p>
-        </li>
-        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li>
+            <a href="https://code.visualstudio.com/" target="_blank"
+              >Visual Studio Code</a
+            >
+            <p>
+              A great IDE (Integrated development environment) with extensions
+              that helps facilitate almost every aspect of coding.
+            </p>
+            <p>
+              Extensions I love:
+            </p>
+            <p>Quokka.js, Prettier, ESLint, Live Sass Compiler</p>
+          </li>
+          <li>
+            <a href="https://codepen.io/" target="_blank">CodePen</a>
+            <p>
+              A great place to stage and show off small projects. I highly
+              recommend signing up for their
+              <a href="https://codepen.io/spark/" target="_blank">newsletter</a>
+              for tons of inspiration
+            </p>
+          </li>
+          <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </button>
     </div>
-    <div class="section" id="audio">
+    <div class="grid-section">
+    <button class="section-button" id="audio">
       <h1>What I listened to!</h1>
-      <ul>
-        <li>
-          <a
-            href="https://www.redhat.com/en/command-line-heroes"
-            target="_blank"
-            >Command Line Heroes</a
-          >
-          <p>
-            Super entertaining podcast. Coding history and interviews with alot
-            of the players involved in the many languages and changing
-            philosophies within the tech world
-          </p>
-        </li>
-        <li>
-          <a href="https://syntax.fm/" target="_blank">Syntax.fm</a>
-          <p>
-            An amazing resource for the current world of development, the lives
-            of programmers, and past and future tools
-          </p>
-        </li>
-        <li>
-          <a href="https://a11yrules.com/" target="_blank">A11y Rules</a>
-          <p>
-            Interviews with professionals about accessibility concepts and
-            making sure accessibility is always accounted for
-          </p>
-        </li>
-        <li>
-          <a
-            href="https://www.freecodecamp.org/news/tag/podcast/"
-            target="_blank"
-            >FreeCodeCamp Podcast</a
-          >
-          <p>
-            Interviews with programmers from all walks of life. Really inspiring
-            and diverse
-          </p>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/watch?v=cDYMaCCAdS4" target="_blank"
-            >The Roots</a
-          >
-          <p>Always meant to get into this group. Really fun to code to</p>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/watch?v=lKy5fLoUwKo" target="_blank"
-            >Chumbawamba</a
-          >
-          <p>
-            It's my new years resolution to get into this band. I don't know
-            why. Surprisingly good to study to. I don't know why
-          </p>
-        </li>
-      </ul>
-    </div>
-    <div class="section" id="projects">
+      <div class="content">
+        <ul>
+          <li>
+            <a
+              href="https://www.redhat.com/en/command-line-heroes"
+              target="_blank"
+              >Command Line Heroes</a
+            >
+            <p>
+              Super entertaining podcast. Coding history and interviews with
+              alot of the players involved in the many languages and changing
+              philosophies within the tech world
+            </p>
+          </li>
+          <li>
+            <a href="https://syntax.fm/" target="_blank">Syntax.fm</a>
+            <p>
+              An amazing resource for the current world of development, the
+              lives of programmers, and past and future tools
+            </p>
+          </li>
+          <li>
+            <a href="https://a11yrules.com/" target="_blank">A11y Rules</a>
+            <p>
+              Interviews with professionals about accessibility concepts and
+              making sure accessibility is always accounted for
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://www.freecodecamp.org/news/tag/podcast/"
+              target="_blank"
+              >FreeCodeCamp Podcast</a
+            >
+            <p>
+              Interviews with programmers from all walks of life. Really
+              inspiring and diverse
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=cDYMaCCAdS4"
+              target="_blank"
+              >The Roots</a
+            >
+            <p>Always meant to get into this group. Really fun to code to</p>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=lKy5fLoUwKo"
+              target="_blank"
+              >Chumbawamba</a
+            >
+            <p>
+              It's my new years resolution to get into this band. I don't know
+              why. Surprisingly good to study to. I don't know why
+            </p>
+          </li>
+        </ul>
+      </div>
+    </button>
+    <div class="grid-section">
+    <button class="section-button" id="projects">
       <h1>What I made!</h1>
-      <ul>
-        <li>
-          <a href="https://daveydevs.github.io/calculator/" target="_blank"
-            >A JS Calculator from scratch</a
-          >
-          <p>
-            I didn't use tutorials or anything! AKA so many bugs, but way better
-            than I thought I'd do
-          </p>
-        </li>
-        <li>
-          <a href="https://daveydevs.github.io/Synesthesia/" target="_blank"
-            >Synesthesia - Assigning colors to letters</a
-          >
-          <p>
-            A challenge to make, and definitely needs improvements. Very excited
-            about how far I've gotten with it so far.
-          </p>
-        </li>
-        <li>
-          <a
-            href="https://daveydevs.github.io/hello-is-for-horses/"
-            target="_blank"
-            >"Hello is for horses"</a
-          >
-          <p>
-            ...I don't know, either. But yeah, I made a bunch of small one-off
-            sites like this when I would learn about certain concepts
-          </p>
-        </li>
-        <li>
-          Rough draft of personal site
-          <p>- Incoming</p>
-        </li>
-        <li>
-          <a href="#top">This site!</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="section" id="projects">
+      <div class="content">
+        <ul>
+          <li>
+            <a href="https://daveydevs.github.io/calculator/" target="_blank"
+              >A JS Calculator from scratch</a
+            >
+            <p>
+              I didn't use tutorials or anything! AKA so many bugs, but way
+              better than I thought I'd do
+            </p>
+          </li>
+          <li>
+            <a href="https://daveydevs.github.io/Synesthesia/" target="_blank"
+              >Synesthesia - Assigning colors to letters</a
+            >
+            <p>
+              A challenge to make, and definitely needs improvements. Very
+              excited about how far I've gotten with it so far.
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://daveydevs.github.io/hello-is-for-horses/"
+              target="_blank"
+              >"Hello is for horses"</a
+            >
+            <p>
+              ...I don't know, either. But yeah, I made a bunch of small one-off
+              sites like this when I would learn about certain concepts
+            </p>
+          </li>
+          <li>
+            Rough draft of personal site
+            <p>- Incoming</p>
+          </li>
+          <li>
+            <a href="#top">This site!</a>
+          </li>
+        </ul>
+      </div>
+    </button>
+</div>
+    <div class="grid-section">
+    <button class="section-button" id="projects">
       <h1>What's next?</h1>
-      <ul>
-        <li>#301DaysOfCode!</li>
-        <li>Looking for front-end job opportunities or freelance work</li>
-        <li>Staying excited 🤙</li>
-      </ul>
-    </div>
-
+      <div class="content">
+        <ul>
+          <li>#301DaysOfCode!</li>
+          <li>Looking for front-end job opportunities or freelance work</li>
+          <li>Staying excited 🤙</li>
+        </ul>
+      </div>
+    </button>
+    <div class="grid-section">
     <footer>
       <h1>Thanks for reading!</h1>
       <h2>- Let's be friends -</h2>
       <p>
         <a href="https://twitter.com/daveydevs" target="_blank"
-          ><i class="fab fa-twitter"></i> @DaveyDevs</a
-        >
+          ><i class="fab fa-twitter"></i> @DaveyDevs</a>
+        
       </p>
     </footer>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

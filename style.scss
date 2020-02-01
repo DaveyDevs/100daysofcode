@@ -23,13 +23,29 @@ header {
   }
 }
 
-.section {
+.grid-header {
   background: $primary;
   padding: 1rem;
   border: 10px solid $secondary;
+}
+
+.section-button {
+  background: $primary;
+  padding: 1rem;
+  border: 10px solid $secondary;
+  color: $textColor;
+  font-family: inherit;
 
   h1 {
     font-size: 3rem;
+  }
+
+  .content {
+    position: relative;
+    max-height: 0;
+    text-align: left;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
   }
 
   i {
@@ -38,6 +54,7 @@ header {
   }
 
   a:link {
+    font-size: 1.5rem;
     color: $secondary;
     background-color: transparent;
     text-decoration: none;
@@ -65,6 +82,19 @@ header {
   p {
     font-size: 1.5rem;
     margin: 0 0 0 1rem;
+  }
+}
+
+.section-button:hover {
+  cursor: pointer;
+  h1 {
+    text-decoration: underline;
+  }
+}
+
+.section-button:focus {
+  h1 {
+    text-decoration: underline;
   }
 }
 
