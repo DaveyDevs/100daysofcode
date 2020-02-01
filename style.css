@@ -5,8 +5,13 @@ body {
   background: white;
 }
 
-header {
+.grid-section {
   background: #000018;
+  padding: 1rem;
+  border: 10px solid #ffe134;
+}
+
+header {
   text-align: center;
   border: 10px dashed #ffe134;
 }
@@ -29,10 +34,11 @@ header h2 {
 
 .section-button {
   background: #000018;
-  padding: 1rem;
-  border: 10px solid #ffe134;
+  width: auto;
+  border: none;
   color: white;
   font-family: inherit;
+  width: 100%;
 }
 
 .section-button h1 {
@@ -44,8 +50,10 @@ header h2 {
   max-height: 0;
   text-align: left;
   overflow: hidden;
+  visibility: hidden;
   -webkit-transition: max-height 0.2s ease-in-out;
   transition: max-height 0.2s ease-in-out;
+  font-size: 2rem;
 }
 
 .section-button i {
@@ -54,7 +62,7 @@ header h2 {
 }
 
 .section-button a:link {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ffe134;
   background-color: transparent;
   text-decoration: none;

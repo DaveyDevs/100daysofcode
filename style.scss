@@ -9,8 +9,13 @@ body {
   background: $textColor;
 }
 
-header {
+.grid-section {
   background: $primary;
+  padding: 1rem;
+  border: 10px solid $secondary;
+}
+
+header {
   text-align: center;
   border: 10px dashed $secondary;
   h1 {
@@ -31,10 +36,11 @@ header {
 
 .section-button {
   background: $primary;
-  padding: 1rem;
-  border: 10px solid $secondary;
+  width: auto;
+  border: none;
   color: $textColor;
   font-family: inherit;
+  width: 100%;
 
   h1 {
     font-size: 3rem;
@@ -45,7 +51,9 @@ header {
     max-height: 0;
     text-align: left;
     overflow: hidden;
+    visibility: hidden;
     transition: max-height 0.2s ease-in-out;
+    font-size: 2rem;
   }
 
   i {
@@ -54,7 +62,7 @@ header {
   }
 
   a:link {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: $secondary;
     background-color: transparent;
     text-decoration: none;
