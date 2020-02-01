@@ -1,0 +1,42 @@
+What I studied - topics
+-------
+HTML
+CSS
+CSS Grid and Flexbox
+Javascript
+Phaser.js
+Sass
+JQuery
+Wordpress
+Accessibility
+SVGs
+
+How I studied - resources / tools?
+--------
+Javascript30
+Free Code Camp
+HTML/CSS book
+Wordpress class
+Accessibility resources?
+sr-workshop101.glitch.me
+Edabit
+Codewars
+Grasshopper app
+VS Code - and extensions 
+
+What I made - projects
+--------
+Calculator
+Rough draft of personal site
+Hello is for horses
+Color text site, ya know
+
+
+What I listened to - audio 
+-------------------
+FreeCodeCamp Podcast
+Command Line Heroes
+Syntax.fm
+Chumbawumba
+The Roots
+A11y podcasts
